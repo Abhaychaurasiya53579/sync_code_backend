@@ -10,5 +10,11 @@
     "socket.io": "^4.7.5",
     "socket.io-client": "^4.7.5",
     "uuid": "^9.0.1"
+  },
+  "scripts": {
+    "server:dev": "nodemon server.js",
+    "server:prod": "node server.js",
+    "start": "  npm run server:prod"
   }
 }
+
